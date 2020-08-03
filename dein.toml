@@ -12,3 +12,12 @@ repo = 'prabirshrestha/asyncomplete.vim'
 
 [[plugins]]
 repo = 'prabirshrestha/vim-lsp'
+
+[[plugins]]
+repo = 'altercation/vim-colors-solarized'
+hook_add = '''
+  let g:solarized_termcolors=256
+  syntax enable
+  set background=dark
+  colorscheme solarized
+'''

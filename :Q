@@ -1,0 +1,115 @@
+" Press ? for help
+
+.. (up a dir)
+/Users/ishiikentarou/
+▸ airflow/
+▸ Applications/
+▸ Desktop/
+▾ Documents/
+  ▸ ai_md_ua/
+  ▸ airflow/
+  ▸ algorithm/
+  ▸ ashrae/
+  ▸ AtCoder/
+  ▸ beautifulsoup/
+  ▸ bootstrap/
+  ▸ cibook-python/
+  ▸ clear_table_dependency/
+  ▸ cli_practice/
+  ▾ click_prectice/
+    ▸ venv/
+      click_practice.py
+  ▸ cronjob/
+  ▸ data_splitter/
+  ▸ data_structure/
+  ▸ dataflow_test/
+  ▸ docker-compose/
+  ▸ docker-jenkins/
+  ▸ docker_practice/
+  ▸ empty/
+  ▸ entry_point_practice/
+  ▸ form/
+  ▸ gae_sample/
+  ▸ gfoot/
+  ▸ gfoot_md/
+  ▸ go_practice/
+  ▸ haruyama_flyer_optimization/
+  ▸ Hello-World/
+  ▸ javasrc/
+  ▸ kube-practice/
+  ▸ language_processing_100/
+  ▸ load_test/
+  ▸ log/
+  ▸ machine_learning/
+  ▸ Microsoft ユーザー データ/
+  ▸ mltask-md-tsi/
+  ▸ mltask/
+  ▸ mltask_practice/
+  ▸ module_practice/
+  ▸ myapp/
+  ▸ predict_molecules/
+  ▸ Processing/
+  ▸ python-docs-samples/
+  ▸ RDC Connections/
+  ▸ relational-gcn/
+  ▸ sample03/
+  ▸ sample04/
+  ▸ sample05/
+  ▸ samplemod/
+  ▸ scala-sandbox/
+  ▸ scraping/
+  ▸ sql_practice/
+  ▸ sqlalchemy/
+  ▸ target/
+  ▸ tf-practice-2.0/
+  ▸ tf-practice/
+  ▸ titanic/
+  ▸ usomatsu_scoring/
+  ▸ VectorMapMaker/
+  ▸ web/
+  ▸ web_practice/
+  ▸ WebEx/
+  ▸ zero_deep/
+  ▸ 自走プログラマ/
+    baseline.py
+    config.yaml
+    cron-example
+    Dockerfile
+    embulk_setup.sh
+    file1
+    first-tensorboard.py
+    locale.bash*
+    mysecret.txt
+    mysecret.txt
+
+    mysecret.txt.decrypted
+    mysecret.txt.encrypted
+    ohayo.txt
+    Pipfile
+    Pipfile.lock
+    sample
+    sample.sh
+    seed.yaml
+    SQL練習.txt
+    taishokunegai_templateのコピー.pdf
+    test.py
+    test.sh
+    tmp.csv
+    tmp.py
+    tmp.tsv
+    use_name_scope.py
+    名称未設定 2
+    石井健太朗_履歴書.pdf
+    石井健太朗_職務経歴書.pdf
+▸ dotfiles/
+▸ Downloads/
+▸ go/
+▸ google-cloud-sdk/
+▸ Library/
+▸ Movies/
+▸ Music/
+▸ Pictures/
+▸ Public/
+▸ SetUps/
+▸ test/
+  tmp.py

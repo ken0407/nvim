@@ -196,27 +196,30 @@ if dein#load_state('~/.config/nvim/dein')
   call dein#end()
   call dein#save_state()
   autocmd VimEnter * execute 'NERDTree'
-  map <C-n> :NERDTreeToggle<CR>
+endif
+map <C-n> :NERDTreeToggle<CR>
 
-  let mapleader = "\<Space>"
+let mapleader = "\<Space>"
 
-" 中略...
 
-  if executable('pyls')
-      au User lsp_setup call lsp#register_server({
-          \ 'name': 'go-langserver',
-          \ 'cmd': {server_info->['go-langserver', '-mode', 'stdio']},
-          \ 'whitelist': ['go'],
-          \ })
-  endif
+if executable('pyls')
+  augroup LspPython
+      autocmd!
+      autocmd User lsp_setup call lsp#register_server({
+          \ 'name': 'pyls',
+          \ 'cmd': { server_info -> ['pyls'] },
+          \ 'whitelist': ['python'],
+          \})
+  augroup END
+endif
 
-  nmap <silent> <Leader>d :LspDefinition<CR>
-  nmap <silent> <Leader>p :LspHover<CR>
-  nmap <silent> <Leader>r :LspReferences<CR>
-  nmap <silent> <Leader>i :LspImplementation<CR>
-  nmap <silent> <Leader>s :split \| :LspDefinition <CR>
-  nmap <silent> <Leader>v :vsplit \| :LspDefinition <CR>
-endif                          
+nmap <silent> <Leader>d :LspDefinition<CR>
+nmap <silent> <Leader>p :LspHover<CR>
+nmap <silent> <Leader>r :LspReferences<CR>
+nmap <silent> <Leader>i :LspImplementation<CR>
+nmap <silent> <Leader>s :split \| :LspDefinition <CR>
+nmap <silent> <Leader>v :vsplit \| :LspDefinition <CR>
+
 filetype plugin indent on
 syntax enable
 
