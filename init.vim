@@ -196,7 +196,8 @@ if dein#load_state('~/.config/nvim/dein')
   call dein#end()
   call dein#save_state()
   autocmd VimEnter * execute 'NERDTree'
-endif
+  map <C-r> :NERDTreeToggle<CR>
+endif                          
 filetype plugin indent on
 syntax enable
 
